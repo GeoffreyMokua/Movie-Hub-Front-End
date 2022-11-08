@@ -1,13 +1,13 @@
 import React from 'react'
-import './Button'
+import { Link } from "react-router-dom"
 
 const Button = () => {
   return (
-    <>
-        <span className='btn'>
-            + add
-        </span>
-    </>
+    <li>
+      <Link to="/add" className="btn">
+        + add
+      </Link>
+    </li>
   )
 }
 
